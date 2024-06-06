@@ -1,0 +1,8 @@
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/cohert/Cohort.java
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/contract/response/CreditCardResponseV1.java
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/contract/request/CustomerSpendAnalysisRequestV1.java
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/contract/response/CustomerSpendAnalysisResponseV1.java
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/creditcard/CreditCard.java
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/bank/Bank.java
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/cobrand/CoBrand.java
+/Users/sauravsharma/Desktop/kred-smart/data-aggregator-service/data-aggregator-model/src/main/java/com/kredsmart/dataaggregator/networkprovider/NetworkProvider.java

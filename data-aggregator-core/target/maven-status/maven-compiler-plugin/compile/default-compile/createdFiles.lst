@@ -1,0 +1,5 @@
+com/kredsmart/dataaggregator/service/TestingMockService.class
+com/kredsmart/dataaggregator/service/DataAggregatorService.class
+com/kredsmart/dataaggregator/service/DataSegregationService.class
+com/kredsmart/dataaggregator/utils/PayloadMapper.class
+com/kredsmart/dataaggregator/DataAggregatorServiceApplication.class

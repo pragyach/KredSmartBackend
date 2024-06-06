@@ -1,0 +1,11 @@
+com/kredsmart/dataaggregator/creditcard/CreditCard.class
+com/kredsmart/dataaggregator/contract/response/CreditCardResponseV1$CreditCardResponseV1Builder.class
+com/kredsmart/dataaggregator/contract/request/CustomerSpendAnalysisRequestV1.class
+com/kredsmart/dataaggregator/cobrand/CoBrand.class
+com/kredsmart/dataaggregator/contract/request/CustomerSpendAnalysisRequestV1$CustomerSpendAnalysisRequestV1Builder.class
+com/kredsmart/dataaggregator/contract/response/CustomerSpendAnalysisResponseV1.class
+com/kredsmart/dataaggregator/bank/Bank.class
+com/kredsmart/dataaggregator/contract/response/CustomerSpendAnalysisResponseV1$CustomerSpendAnalysisResponseV1Builder.class
+com/kredsmart/dataaggregator/networkprovider/NetworkProvider.class
+com/kredsmart/dataaggregator/contract/response/CreditCardResponseV1.class
+com/kredsmart/dataaggregator/cohert/Cohort.class

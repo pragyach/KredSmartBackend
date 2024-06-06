@@ -1,0 +1,12 @@
+com/kredsmart/dataaggregator/entity/CohortEntity.class
+com/kredsmart/dataaggregator/entity/CoBrandEntity$CoBrandEntityBuilder.class
+com/kredsmart/dataaggregator/entity/CreditCardEntity.class
+com/kredsmart/dataaggregator/repository/CreditCardRepository.class
+com/kredsmart/dataaggregator/entity/CoBrandEntity.class
+com/kredsmart/dataaggregator/entity/BaseEntity$BaseEntityBuilder.class
+com/kredsmart/dataaggregator/entity/BaseEntity.class
+com/kredsmart/dataaggregator/repository/CohortCoBrandMapRepository.class
+com/kredsmart/dataaggregator/repository/CohortRepository.class
+com/kredsmart/dataaggregator/entity/CreditCardEntity$CreditCardEntityBuilder.class
+com/kredsmart/dataaggregator/repository/CoBrandRepository.class
+com/kredsmart/dataaggregator/entity/CohortEntity$CohortEntityBuilder.class

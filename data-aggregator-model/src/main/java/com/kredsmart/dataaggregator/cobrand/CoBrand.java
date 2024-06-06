@@ -1,0 +1,24 @@
+package com.kredsmart.dataaggregator.cobrand;
+
+public enum CoBrand {
+    SWIGGY_EATS,
+    AMAZON_SHOP,
+    FLIPKART_SHOP,
+    SHELL_OIL,
+    AMAZON_EATS,
+    ZOMATO_EATS,
+    UBER_TRAVEL,
+    OLA_TRAVEL,
+    MERU_CAB,
+    UBER_EATS,
+    INDIAN_OIL,
+    DELHI_METRO,
+    JAIPUR_METRO,
+    MUMBAI_METRO,
+    CLUB_VISTARA,
+    CLUB_INDIGO,
+    CLUB_SPICEJET,
+    CLUB_MAHINDRA,
+    SHOPPERSTOP,
+    BHARAT_PETROLEUM
+}

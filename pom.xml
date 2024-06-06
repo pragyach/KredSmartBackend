@@ -1,48 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns="http://maven.apache.org/POM/4.0.0"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-  <parent>
-    <artifactId>data-aggregator-service</artifactId>
-    <groupId>com.kredsmart</groupId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<!--  <parent>-->
+<!--    <groupId>org.springframework.boot</groupId>-->
+<!--    <artifactId>spring-boot-starter-parent</artifactId>-->
+<!--    <version>2.2.4.RELEASE</version>-->
+<!--    <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+<!--  </parent>-->
+  <groupId>com.kredsmart</groupId>
+  <artifactId>data-aggregator-service</artifactId>
+  <packaging>pom</packaging>
 
-  <artifactId>data-aggregator-core</artifactId>
-  <name>data-aggregator-core</name>
   <version>0.0.1-SNAPSHOT</version>
+  <name>data-aggregator-service</name>
+  <description>Service for data aggregation</description>
 
-  <dependencies>
-    <dependency>
-      <groupId>com.kredsmart</groupId>
-      <artifactId>data-aggregator-dao</artifactId>
-      <version>${data-aggregator-dao-version}</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>${lombok.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.17.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.kredsmart</groupId>
-      <artifactId>data-aggregator-database</artifactId>
-      <version>${data-aggregator-database-version}</version>
-      <scope>compile</scope>
-    </dependency>
+  <modules>
+    <module>data-aggregator-core</module>
+    <module>data-aggregator-dao</module>
+    <module>data-aggregator-database</module>
+    <module>data-aggregator-model</module>
+  </modules>
 
-    <dependency>
-      <groupId>com.kredsmart</groupId>
-      <artifactId>data-aggregator-model</artifactId>
-      <version>${data-aggregator-model-version}</version>
-      <scope>compile</scope>
-    </dependency>
-  </dependencies>
+
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <java.version>17</java.version>
+    <lombok.version>1.18.22</lombok.version>
+    <data-aggregator-core-version>0.0.1-SNAPSHOT</data-aggregator-core-version>
+    <data-aggregator-database-version>0.0.1-SNAPSHOT</data-aggregator-database-version>
+    <data-aggregator-dao-version>0.0.1-SNAPSHOT</data-aggregator-dao-version>
+    <data-aggregator-model-version>0.0.1-SNAPSHOT</data-aggregator-model-version>
+  </properties>
+
+
+  <build>
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-checkstyle-plugin</artifactId>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <id>check-style</id>-->
+<!--            <phase>validate</phase>-->
+<!--            <goals>-->
+<!--              <goal>check</goal>-->
+<!--            </goals>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
+<!--    </plugins>-->
+  </build>
+
 </project>
+
